@@ -1,0 +1,31 @@
+{
+  "name": "alipay-chatyu",
+  "version": "1.0.1",
+  "description": "alipay-node pay",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fibers": "^2.0.0",
+    "iconv-lite": "^0.4.18",
+    "logs-dir": "^1.0.9",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonySufer/node-alipay.git"
+  },
+  "author": "antonysufer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonySufer/node-alipay/issues"
+  },
+  "homepage": "https://github.com/AntonySufer/node-alipay#readme"
+}
