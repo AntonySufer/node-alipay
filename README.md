@@ -1,8 +1,4 @@
----
-title: node 封装支付宝支付公用 api，包含支付 查询 退款等
-date: 2017-11-12 11:22:42
-tags: node alipay-chatyu
----
+
 # alipay-chatyu - v1.0.1
 
 ## Installation
