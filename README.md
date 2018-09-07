@@ -1,15 +1,20 @@
+---
+title: node 封装支付宝支付公用 api，包含支付 查询 退款等
+date: 2017-11-12 11:22:42
+tags: node alipay-chatyu
+---
 # alipay-chatyu - v1.0.1
 
 ## Installation
 
-Using npm:
-    
+- Using npm:
+ ```
     $ npm insatll alipay-chatyu -s
+ ```
+## alipay_api:[https://doc.open.alipay.com/doc2/apiList?docType=4](https://doc.open.alipay.com/doc2/apiList?docType=4 "alipay文档")
 
-##alipay_api:[https://doc.open.alipay.com/doc2/apiList?docType=4](https://doc.open.alipay.com/doc2/apiList?docType=4 "alipay文档")
-
-In Node.js: <br/>
-
+### In Node.js: <br/>
+```
     
     const AlipayAPI = require('alipay-chatyu');
     const Fiber = require('fibers'); // Asynchronous to synchronous  
@@ -78,11 +83,11 @@ In Node.js: <br/>
     }).run();
 
     
-
+```
 
 
 # Attention<br>
-项目文件名下必须创建config文件，包含内容 为公钥和私钥文件.    
+-.项目文件名下必须创建config文件，包含内容 为公钥和私钥文件.    
 
 -project<ul>
 <li>config
@@ -94,7 +99,7 @@ In Node.js: <br/>
 </ul>
 
 
-###图例：
+### 图例：
   ![image](https://github.com/AntonySufer/node-alipay/blob/master/img/exp.png)
   
                                          
